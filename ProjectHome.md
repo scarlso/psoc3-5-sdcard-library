@@ -1,0 +1,3 @@
+This is a SD Card library for the PSoC 3/5 family of parts. It utilizes the FatFS library but could be integrated with any FAT library. It provides a set of files to directly communicate with an SD Card is raw binary format over the SPI SDCard protocol. It also provides an interface layer ofr the FatFS library. Finally it has some example code showing how to read/write raw data as well as FAT data.
+
+I have been able to achieve 150 KB/sec of write performance in FAT mode and 300 KB/sec in raw write mode with a 6 MHz SPI clock.
